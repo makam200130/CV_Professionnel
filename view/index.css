@@ -308,17 +308,14 @@ h4{
         margin-top: 20px;
     }
     .pietlangue{
-        display: grid;
+        display: flex;
         width: space-between;
         grid-column-gap: 15px;
-        grid-template: repeat(1, 1fr) / repeat(3, 1fr);
-        grid-template-areas: "i i l";
         margin-top: 15px;
     }
     .interet{
         /* height: 100%;
-        width: 55%; */
-        grid-area: i;
+        width: 55%; */order: 1;
         width: 70%;
         background-color: white;
         border-radius: 5px;
@@ -331,7 +328,7 @@ h4{
     .langue{
         /* height: 100%;
         width: 32%; */
-        grid-area: l;
+        order: 2;
         width: 30%;
         padding: 4%;
         justify-content: space-between;
