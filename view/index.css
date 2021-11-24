@@ -306,4 +306,35 @@ h4{
         width: 100%;
         margin-top: 20px;
     }
+    .pietlangue{
+        display: grid;
+        width: space-between;
+        grid-column-gap: 15px;
+        grid-template: repeat(1, 1fr) / repeat(3, 1fr);
+        grid-template-areas: "i i l";
+        margin-top: 15px;
+    }
+    .interet{
+        /* height: 100%;
+        width: 55%; */
+        grid-area: i;
+        background-color: white;
+        border-radius: 5px;
+        padding-inline: 2%;
+        padding-left: 25px;
+        padding-top: 2%;
+        display: flex;
+        flex-flow: column;
+    }
+    .langue{
+        /* height: 100%;
+        width: 32%; */
+        grid-area: l;
+        padding: 4%;
+        justify-content: space-between;
+        background-color: white;
+        border-radius: 5px;
+        
+    }
+
 }
