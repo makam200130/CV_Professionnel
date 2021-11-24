@@ -307,7 +307,7 @@ h4{
         width: 100%;
         margin-top: 20px;
     }
-    .pietlangue{
+    /* .pietlangue{
         display: flex;
         flex-direction: row;
         width: space-between;
@@ -316,7 +316,7 @@ h4{
     }
     .interet{
         /* height: 100%;
-        width: 55%; */order: 1;
+        width: 55%; *//*order: 1;
         width: 70%;
         background-color: white;
         border-radius: 5px;
@@ -326,9 +326,9 @@ h4{
         display: flex;
         flex-flow: column;
     }
-    .langue{
+    .langue{*/
         /* height: 100%;
-        width: 32%; */
+        width: 32%; *//*
         order: 2;
         width: 30%;
         padding: 4%;
@@ -336,6 +336,6 @@ h4{
         background-color: white;
         border-radius: 5px;
         
-    }
+    } */
 
 }
