@@ -309,6 +309,7 @@ h4{
     }
     .pietlangue{
         display: flex;
+        flex-direction: row;
         width: space-between;
         grid-column-gap: 15px;
         margin-top: 15px;
