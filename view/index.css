@@ -290,6 +290,7 @@ h4{
     .conteneur{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .personnel{
         order: 1;
