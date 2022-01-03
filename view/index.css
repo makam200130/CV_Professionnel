@@ -17,6 +17,7 @@ body{
     grid-template-areas: 
     "p b b"
     "s b b";
+    background-image: url(image/fond.jpg);
 }
 /*.conteneur1{
     grid-area: a;
@@ -74,9 +75,12 @@ body{
     height: 40px;
 }
 .taillesmallIcon{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     margin-right: 20px;
+}
+.bigGreyText{
+    size: 24px;
 }
 .tof{
     border-radius: 100%;
@@ -104,6 +108,51 @@ h1{
     align-self: flex-end;
     margin-bottom: 10px;
 }
+.hcolor{
+    height: 0.2px;
+}
+.a_masquerafficher1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: green;
+    border-radius: 100%;
+    justify-content: center;
+    margin-top: 210px;
+    margin-left: 260px;
+    transition-duration: 1s;
+    transform: translateX(-50) translate(30);
+    /* position: absolute; */
+    /* margin-right: 25px;
+    align-self: flex-end;
+    margin-bottom: 10px;*/
+} 
+.a_masquerafficher2{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 260px;
+    background-color: yellow;
+    border-radius: 100%;
+    transition-duration: 1s;
+    transform: translateX(-50) translate(50);
+    /* position: absolute; */
+    /* margin-right: 25px;
+    align-self: flex-end;
+    margin-bottom: 10px;*/
+} 
+.btn{
+    display: flex;
+    align-self: center;
+}
 .text{
     width:100%;
 }
@@ -119,7 +168,7 @@ h1{
 }
 .textgrey{
     font-size: 18px;
-    color: white;
+    color: #f0f0f0e3;
 }
 .trait{
     margin-top: 8px;
@@ -134,8 +183,16 @@ h1{
     justify-content: space-between;
     width: 100%;
 }
-h4{
+.titretext{
     color: white;
+    font-size: 18px;
+}
+.rouge{
+    background-color: red;
+    width: 40%;
+    height: 2px;
+    margin-top: 10px;
+    margin-left: -20px;
 }
 .text{
     font-size: 18px;
@@ -146,8 +203,8 @@ h4{
 .competences{
     display: flex;
     flex-direction: row;
-    align-items: center;
     padding-inline: 20px;
+    padding-top: 15px;
     padding-bottom: 20px;
     border-radius: 5px;
     background: #FAFAFA;
@@ -223,7 +280,7 @@ h4{
     background-color: white;
     display: flex;
     flex-flow: column;
-    height: 395px;
+    height: 410px;
     background: white;
     border-radius: 0px 0px 5px 5px;
     padding: 15px;
@@ -241,6 +298,45 @@ h4{
     background:rgb(56, 56, 56);
     border-radius: 20px;
 }
+.detailsinteret{
+    display: flex;
+    flex-direction: row;
+}
+.det1{
+    display: flex;
+    flex-direction: row;
+}
+.pleasureImage{
+
+}
+
+.scrollcorps1{
+    overflow-y: scroll;
+    background-color: white;
+    display: flex;
+    flex-flow: row;
+    background: white;
+    border-radius:0px 0px 5px 5px ;
+    padding: 15px;
+    margin: 5px;
+}
+.scrollcorps1::-webkit-scrollbar{
+    height: 5px;
+}
+.scrollcorps1::-webkit-scrollbar-track{
+    /*box-shadow: inset 5px 5px  0 0  rgb(211, 219, 210);
+     border-radius: 10px; */
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+.scrollcorps1::-webkit-scrollbar-thumb{
+    background:rgb(56, 56, 56);
+    border-radius: 20px;
+}
+
+
 .textblackM{
     font-size: 18px;
     color: black;
