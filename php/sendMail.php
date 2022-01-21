@@ -17,7 +17,7 @@ $emailDestination=$_GET['receptionEmail'];
 //declare personal var
 $myEmail = 'makamfiliane01@gmail.com';
 $myPassword='Juillet2001';
-$myName='Filiane MAKAM';
+$myName='Filiane Marie MAKAM';
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer();
