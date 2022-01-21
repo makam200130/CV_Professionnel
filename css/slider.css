@@ -1,0 +1,72 @@
+.slidecontainer {
+    width: 100%;
+    position: relative;
+    background-color: #dadbdb;
+    height: 5px;
+    display: flex;
+    margin-top: 16px;
+}
+
+.theFulled {
+    background-color: #2b77b4;
+    height: inherit;
+    width: 80%;
+}
+
+.theEmpty {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #2b77b4;
+    position: absolute;
+    right: 20%;
+    top: -7.5px;
+}
+
+
+/* The slider itself */
+
+.slider {
+    -webkit-appearance: none;
+    /* Override default CSS styles */
+    appearance: none;
+    width: 100%;
+    /* Full-width */
+    height: 15px;
+    /* Specified height */
+    background: #2b77b4;
+    /* Grey background */
+    outline: none;
+    /* Remove outline */
+    opacity: 0.7;
+    /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+
+/* Mouse-over effects */
+
+.slider:hover {
+    opacity: 1;
+    /* Fully shown on mouse-over */
+}
+
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Override default look */
+    appearance: none;
+    width: 25px;
+    /* Set a specific slider handle width */
+    height: 25px;
+    /* Slider handle height */
+    background: #2b77b4;
+    /* Green background */
+    cursor: pointer;
+    /* Cursor on hover */
+    border-radius: 50%;
+}
